@@ -4,7 +4,8 @@
 
 [Golang Example](http-basic-authentication/main.go)
 
-> WARNING: HTTP Basic Auth is considered to be insecure. If you **must** use it, ensure you are using a TLS connection since it sends the password over the wire.
+> [!WARNING]
+> HTTP Basic Auth is considered to be insecure. If you **must** use it, ensure you are using a TLS connection since it sends the password over the wire.
 
 HTTP Basic Authentication transmits credentials by including a Base64 encoded string of "username:password" in the Authorization header of each HTTP request.
 
