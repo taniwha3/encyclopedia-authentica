@@ -6,7 +6,7 @@
 
 > WARNING: HTTP Basic Auth is considered to be insecure. If you **must** use it, ensure you are using a TLS connection since it sends the password over the wire.
 
-HTTP Basic Authentication sends the username and password in the HTTP Headers.
+HTTP Basic Authentication transmits credentials by including a Base64 encoded string of "username:password" in the Authorization header of each HTTP request.
 
 ## Technical Details
 
