@@ -1,6 +1,6 @@
 # Encyclopedia Authentica
 
-Welcome tot he Encyclopedia Authentica! We list different kinds of authentication techniques and provide:
+Welcome to the Encyclopedia Authentica! We list different kinds of authentication techniques and provide:
 
 * A high level description of how they work
 * Architecture Diagrams
@@ -13,7 +13,7 @@ Of course, this is all non-authorative, do your own additional research. No one 
 
 ## Basic Authentication
 
-* **INSECURE** HTTP Basic Authentication - username/password sent as base64
+* **INSECURE** [HTTP Basic Authentication](http-basic-authentication/README.md) - username/password sent as base64
 * **INSECURE** HTTP Digest Authentication - password hashed with md5sum
 * **INSECURE** Form based authentication - password sent over POST via form
 
