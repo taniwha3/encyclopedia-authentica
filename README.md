@@ -14,7 +14,7 @@ Of course, this is all non-authorative, do your own additional research. No one 
 ## Basic Authentication
 
 * **INSECURE** [HTTP Basic Authentication](http-basic-authentication/README.md) - username/password sent as base64
-* **INSECURE** HTTP Digest Authentication - password hashed with md5sum (or later algorithm)
+* **INSECURE** [HTTP Digest Authentication](http-digest/README.md) - password hashed with md5sum (or later algorithm)
 * **INSECURE** [Form based authentication](form-based/README.md) - password sent over POST via form
 
 ## Token Based Authentication
